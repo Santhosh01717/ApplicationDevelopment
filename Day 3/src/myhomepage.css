@@ -1,0 +1,149 @@
+#App {
+    text-align: center;
+    height: 100%;
+    background-color: rgb(247, 235, 215);
+    padding-bottom: 50px;
+  }
+  #App-2{
+    text-align: center;
+    height: 100%;
+    background-color: rgb(187, 208, 217);
+    padding-bottom: 50px;
+  }
+  #second-para{
+    background-color: white;
+  }
+  
+  #App-header {
+    background-color: #282c34;
+    padding: 20px;
+    color: white;
+  }
+  
+  #navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #nav-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  #logo {
+    display: flex;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+  }
+  
+  #logo-name {
+    font-size: 1.5rem;
+    margin-left: 10px;
+  }
+  
+  #content {
+    padding: 20px;
+  }
+  #title11{
+    color:white;
+  }
+  
+  #page {
+    display: flex;
+    align-items: center;
+    
+  }
+  
+  #left {
+    flex: 1;
+    text-align: center;
+  }
+  
+  #right {
+    flex: 1;
+    text-align: left;
+  }
+  
+  #moving-image {
+    width: 400px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 16px;
+    color: #666;
+  }
+  #text-para-1{
+    padding: 10px;
+    font-size: 20px;
+  }
+  #btn-start{
+      width: 300px;
+      height: 60px;
+      border-radius: 20px;
+      background-color: rgb(245, 172, 39);
+      font-size: 20px;
+  }
+  #empty-space{
+    height: 90px;
+    background-color: white;
+  }
+  #heading-space{
+    height: 100px;
+    font-size: 30px;
+  }
+  #para-text-2{
+    padding-right: 70px;
+    padding-left: 70px;
+    padding-bottom: 70px;
+    font-size: 20px;
+  }
+  #image-webp{
+    width: 700px;
+    height: auto;
+    margin-top: 50px;
+  }
+  #number-63{
+    border: solid 0px;
+    border-radius: 20px;
+    height: 100px;
+    width: 500px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 10px 2px rgba(113, 110, 110, 0.3);
+  }
+  #number-center{
+    display: grid;
+  place-items: center;
+  }
+  #move-top{
+      position: relative;
+  }
+  #right-corner{
+       position: absolute;
+       top: 0;
+       right: 100px;
+  }
+  #login-span{
+    padding: 10px;
+  }
+  span{
+    font-size: 20px;
+    color: white;
+  }
+  #center-qn{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    
+  }
+  /* Add additional CSS styles as needed */
+  

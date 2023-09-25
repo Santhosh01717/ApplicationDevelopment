@@ -1,0 +1,50 @@
+/* ContactUs.css */
+
+#contact-us-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  #contact-form {
+    background: #f7f7f7;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .form-group {
+    margin: 10px 0;
+  }
+  
+  .contact-label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .contact-input[type="text"],
+  .contact-input[type="email"],
+  .contact-textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .contact-button {
+    background: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .contact-button:hover {
+    background: #0056b3;
+  }
+
+  

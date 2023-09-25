@@ -1,0 +1,21 @@
+/* AboutUs.css */
+
+.about-us-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .ab-h1 {
+    font-size: 24px;
+  }
+  
+  .ab-h2 {
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  
+  .ab-p {
+    font-size: 16px;
+    margin: 10px 0;
+  }
+  

@@ -1,0 +1,138 @@
+/* Container */
+#container {
+    background-color: transparent; /* Transparent background color */
+    padding: 20px;
+  }
+  
+  /* Heading */
+  h1 {
+    color: #333;
+    font-size: 24px;
+    text-align: center;
+  }
+  
+  /* Buttons */
+  button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+  }
+  
+  #addbtn {
+    background-color: #4caf50;
+  }
+  
+  #delbtn {
+    background-color: #f44336;
+  }
+  
+  #logout {
+    background-color: #ff9800;
+  }
+  
+  /* Table */
+  #table {
+    width: 90%;
+    margin-top: 20px;
+    border-collapse: collapse;
+  }
+  
+  #table th,
+  #table td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: left;
+  }
+  
+  #table th {
+    background-color: #f2f2f2;
+    cursor: pointer;
+  }
+  
+  #table th:hover {
+    background-color: #e6e6e6;
+  }
+  
+  #table #id,
+  #table #name {
+    width: 100px;
+  }
+  
+  #table #action,
+  #table #view-details {
+    width: 120px;
+  }
+  
+  #table #action button,
+  #table #view-details button {
+    background-color: transparent;
+    color: #333;
+    border: 1px solid #333;
+    padding: 5px 10px;
+    margin: 5px;
+    cursor: pointer;
+  }
+  
+  #table #action button:hover,
+  #table #view-details button:hover {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  /* Pagination */
+  .page {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .page button {
+    background-color: transparent;
+    color: #333;
+    border: 1px solid #333;
+    padding: 5px 10px;
+    margin: 0 2px;
+    cursor: pointer;
+  }
+  
+  .page button:hover {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .page .Mui-selected {
+    background-color: #333;
+    color: #fff;
+  }
+  /* Smooth Button */
+button.Back {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button.Back:hover {
+    background-color: #555;
+  }
+  #background-video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    object-fit: cover;
+  }
+#body-Crud{
+  background-color: #e39494;
+}  
+#tot-body{
+  background-color: #e39494;
+}
