@@ -1,0 +1,421 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+/* body{
+background-image: url("https://st2.depositphotos.com/1757635/8830/i/950/depositphotos_88302772-stock-photo-global-business-strategy.jpg");
+} */
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  outline-color: #a5b4fc;
+}
+table {
+  border: 1px solid black;
+  width: 625px;
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  margin-top: 5%;
+  margin-left: 5%;
+}
+#id{
+  min-width: 50px;
+  max-width: 50px;
+}
+#name{
+  min-width: 80px;
+  max-width: 80px;
+}
+#age{
+  min-width: 50px;
+  max-width: 50px;
+}
+#phone{
+  min-width: 110px;
+  max-width: 110px;
+}
+#age{
+  min-width: 30px;
+  max-width: 30px;
+}
+#pos{
+  min-width: 120px;
+  max-width: 120px;
+}
+#action{
+  min-width: 40px;
+  max-width: 100px;
+}
+#view-details{
+  min-width: 40px;
+  max-width: 150px;
+}
+#container{
+  position: inherit;
+  width: 725px;
+  padding: 32px;
+  border-radius: 8px;
+  background-color: #ffffff;
+  box-shadow: 2px 4px 8px #6b728040;
+  text-align: center;
+}
+td, th {
+  
+  padding: 5px;
+  border: 1px solid #0e0e0e;
+  text-align: left;
+  overflow: hidden;
+}
+
+#addbtn,#viewbtn{
+  margin-top: 5%;
+}
+#addbtn{
+  margin-right: 2%;
+}
+p {
+  font-size: 14px;
+  color: #6b7280;
+}
+
+.signup-form {
+  width: 480px;
+  padding: 32px;
+  border-radius: 8px;
+  background-color: #4e4e4e;
+  box-shadow: 2px -1px 8px -1px #0d0e0e40;
+  text-align: center;
+}
+.signup-form2{
+  width: 480px;
+  padding: 32px;
+  border-radius: 8px;
+  background-color: transparent;
+  box-shadow: 2px -1px 8px -1px #0d0e0e40;
+  text-align: center;
+}
+.signup-form1 {
+  width: 480px;
+  padding: 32px;
+  border-radius: 8px;
+  background-color: transparent;
+  box-shadow: 2px -1px 8px -1px #4b4d4d40;
+  text-align: center;
+}
+
+.header {
+  margin-bottom: 48px;
+}
+
+.header h1 {
+  font-weight: bolder;
+  font-size: 28px;
+  color: #6366f1;
+}
+
+.input {
+  position: relative;
+  margin-bottom: 24px;
+}
+
+.input input {
+  width: 100%;
+  border: none;
+  padding: 8px 40px;
+  border-radius: 4px;
+  background-color: #f3f4f6;
+  color: #1f2937;
+  font-size: 16px;
+}
+
+.input input::placeholder {
+  color: #6b7280;
+}
+.page{
+ margin-left: 39%;
+ margin-top: 2%;
+}
+.input i {
+  top: 50%;
+  width: 36px;
+  position: absolute;
+  transform: translateY(-50%);
+  color: #6b7280;
+  font-size: 16px;
+}
+#actions{
+  width:80px;
+  color: #5b06f8;
+  position : relative ;
+    font-size : 14px ; 
+    font-weight : bold ;
+    
+    transition : all .3s ease ;
+}
+#action-del{
+  width:80px;
+  color: #f80606;
+  position : relative ;
+    font-size : 14px ; 
+    font-weight : bold ;
+    
+    transition : all .3s ease ;
+}
+.signup-btn {
+  width: 100%;
+  border: none;
+  padding: 8px 0;
+  margin: 24px 0;
+  border-radius: 4px;
+  background-color: #6366f1;
+  color: #ffffff;
+  font-size: 16px;
+  cursor: pointer;
+}
+.e-signup-btn{
+  border: none;
+  padding: 8px 0;
+  margin: 24px 0;
+  border-radius: 4px;
+  background-color: #6366f1;
+  color: #ffffff;
+  font-size: 16px;
+  cursor: pointer;
+  width:45%;
+}
+.e-cancel-btn{
+  border: none;
+  padding: 8px 0;
+  margin: 24px 0;
+  border-radius: 4px;
+  background-color: #d2d3e6;
+  color: #ffffff;
+  font-size: 16px;
+  cursor: pointer;
+  width:45%;
+}
+#viewbtn,#addbtn {
+  border: none;
+  padding: 10px 0;
+  padding: 10px;
+  border-radius: 4px;
+  background-color: #6366f1;
+  color: #ffffff;
+  font-size: 16px;
+  cursor: pointer;
+}
+#delbtn{
+ 
+    border: none;
+    padding: 10px 0;
+    padding: 10px;
+    border-radius: 4px;
+    background-color: #fa0808;
+    color: #ffffff;
+    font-size: 16px;
+    cursor: pointer;
+  
+}
+#logout{
+  border: none;
+  padding: 10px 0;
+  padding: 10px;
+  margin-top: 2%;
+  border-radius: 4px;
+  background-color: #f01010;
+  color: #ffffff;
+  font-size: 16px;
+  cursor: pointer;
+}
+.signup-btn:active,#viewbtn:active,#addbtn:active {
+  background-color: #4f46e5;
+  transition: all 0.3s ease;
+}
+.signup-btn:hover{
+  background-color: #a5b4fc;
+}
+.cancel-btn:active {
+  background-color: #4f46e5;
+  transition: all 0.3s ease;
+}
+.full-body {
+  height: 100vh;
+  display: grid;
+  background-color: #e2e8f0;
+  /* background-image: url("https://img.freepik.com/free-photo/social-network-connection-avatar-icon-vector_53876-121369.jpg?w=826&t=st=1685683917~exp=1685684517~hmac=dee12f51b0fa27eaa2172c9d890d08fcd2afaf9a1b9c60d49739577402a82062"); */
+  background-size: cover;
+  animation: motionBackground 10s linear infinite;
+  
+}
+
+@keyframes motionBackground {
+  0% {
+    background-position: 0% 0%;
+  }
+  100% {
+    background-position: 100% 100%;
+  }
+}
+h1.title{
+  color:rgb(70, 68, 68);
+}
+.cred{
+  color:rgb(66, 61, 61);
+}
+.no-acc{
+  color: rgb(206, 202, 202);
+  cursor: pointer;
+}
+#already-acc{
+  cursor: pointer;
+  color: rgb(19, 19, 19);
+  
+}
+#ryzoo-title{
+  color: #411363;
+}
+
+/* Container */
+#container {
+    background-color: transparent; /* Transparent background color */
+    padding: 20px;
+  }
+  
+  /* Heading */
+  h1 {
+    color: #333;
+    font-size: 24px;
+    text-align: center;
+  }
+  
+  /* Buttons */
+  .learn-button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+  }
+  #learn-button:hover{
+    background-color: transparent;
+    color: black;
+  }
+  #addbtn {
+    background-color: #4caf50;
+  }
+  
+  #delbtn {
+    background-color: #f44336;
+  }
+  
+  #logout {
+    background-color: #ff9800;
+  }
+  
+  /* Table */
+  #table {
+    width: 90%;
+    margin-top: 20px;
+    border-collapse: collapse;
+  }
+  
+  #table th,
+  #table td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: left;
+  }
+  
+  #table th {
+    background-color: #f2f2f2;
+    cursor: pointer;
+  }
+  
+  #table th:hover {
+    background-color: #e6e6e6;
+  }
+  
+  #table #id,
+  #table #name {
+    width: 100px;
+  }
+  
+  #table #action,
+  #table #view-details {
+    width: 120px;
+  }
+  
+  #table #action button,
+  #table #view-details button {
+    background-color: transparent;
+    color: #333;
+    border: 1px solid #333;
+    padding: 5px 10px;
+    margin: 5px;
+    cursor: pointer;
+  }
+  
+  #table #action button:hover,
+  #table #view-details button:hover {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  /* Pagination */
+  .page {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .page button {
+    background-color: transparent;
+    color: #333;
+    border: 1px solid #333;
+    padding: 5px 10px;
+    margin: 0 2px;
+    cursor: pointer;
+  }
+  
+  .page button:hover {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .page .Mui-selected {
+    background-color: #333;
+    color: #fff;
+  }
+  /* Smooth Button */
+button.Back {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button.Back:hover {
+    background-color: #555;
+  }
+  #background-video {
+   
+    position: fixed;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 700px;
+    width: 100%;
+    z-index: -1;
+    object-fit: cover;
+  }
+ 
+
+#body-Crud{
+  background-color: #e39494;
+}  
+#tot-body{
+  background-color: #e39494;
+}

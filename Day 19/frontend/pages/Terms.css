@@ -1,0 +1,31 @@
+/* Terms.css */
+
+.terms-heading {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 20px 0;
+    text-align: center;
+  }
+  
+  .section-heading {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  
+  .paragraph {
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 10px 0;
+  }
+  
+  .list {
+    margin: 10px 0 20px 20px;
+  }
+  
+  .list li {
+    list-style: disc;
+  }
+  
+  /* Additional styles can be added as needed */
+  
